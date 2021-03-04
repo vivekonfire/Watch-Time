@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+        <link rel="stylesheet" href="timer.css">
+        <link rel="icon" href="timer-image-icon.png">
+    </head>
+    <body>
+        <div class="background">
+            <div class="logo">
+                <img src="timer-image.png" alt="Cannot load the image" height=100px width=100px>
+            </div>
+            <div class="heading">
+                WATCHER
+            </div>
+        </div>
+        <div class="container">
+            <p id="countdown">0: 00</p>
+            <div class="select">
+                <div><h1>Minutes:</h1></div>
+                <div><input type="number" id="mins" placeholder="00"></div>
+                <div><h1>Seconds:</h1></div>
+                <div><input type="number" id="secs" placeholder="00"></div>
+            </div>
+            <div class="start">
+                <button type="button" onclick="start()">START</button>
+                <button type="button" onclick="stop()">STOP</button>
+            </div>
+        </div>
+        <script src="timer.js"></script>
+    </body>
+</html>

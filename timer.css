@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    margin:0;
+}
+.background{
+    background-color: #276678;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo{
+    justify-content: right;
+}
+.heading{
+    font-size: 80px;
+    font-family: Poppins,"sans-serif";
+    font-weight:bold;
+    color:white;
+    float:left;
+    text-align: right;
+}
+#countdown{
+    height: 150px;
+    font-size: 100px;
+    font-family: Poppins,"sans-serif";
+    text-align: center;
+    padding: 100px;
+}
+.select{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1{
+    text-align: right;
+    font-family: Poppins,"sans-serif";
+}
+input{
+    height:30px;
+    width:150px;
+    margin-top:20px;
+    align-items: right;
+    display: table-cell;
+}
+.start{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    height:40px;
+    width:120px;
+    background-color: #1687a7;
+    color:white;
+}
+
+@media screen and (max-width:655px){
+    .select{
+        grid-template-columns: 50% 50%;
+        padding: 5px;
+    }
+}
