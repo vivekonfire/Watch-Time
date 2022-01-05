@@ -25,8 +25,8 @@ https://watcherrr.herokuapp.com/
 
 ### Stopwatch Page
 
-![Stopwatch Page](./screenshot/2.png)
+![Stopwatch Page](./screenshots/2.png)
 
 ### Timer Page
 
-![Timer Page](./screenshot/3.png)
+![Timer Page](./screenshots/3.png)
