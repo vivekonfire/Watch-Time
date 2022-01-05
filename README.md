@@ -15,7 +15,7 @@ With this application users can use features like stopwatch and timer.
 
 ## Live Demo
 
-https://movie-tickets-zeta.vercel.app/
+https://watcherrr.herokuapp.com/
 
 ## ScreenShots
 
